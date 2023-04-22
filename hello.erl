@@ -7,4 +7,4 @@
 hello_world() ->
     hello_world.
 
-hello_world(X) -> "Hello -> " ++ X ++ "Welcome to the circus".
+hello_world(X) -> io:fwrite("Hello -> ~s Welcome to the circus", [X]).
